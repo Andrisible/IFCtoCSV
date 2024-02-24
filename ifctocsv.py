@@ -4,23 +4,11 @@ import sys
 import inspect
 
 
-attributes = ["ADIF_00_Codigo_Producto",
-    "ADIF_00_Descripcion_Producto",
-    "ADIF_00_Disciplina",
-    "ADIF_00_Id_Objeto",
-    "ADIF_00_Subdisciplina",
-    "ADIF_03_Clasificacion_Elemento",
-    "ADIF_03_Codigo_Estudio",
-    "ADIF_04_Codigo_Actividad",
-    "ADIF_04_Fase",
-    "ADIF_05_01_Capitulo",
-    "ADIF_05_01_Coeficiente_Certificado",
-    "ADIF_05_01_Partida",
-    "ADIF_05_01_Unid",
-    "ADIF_07_Certificado",
-    "ADIF_07_Ejecutado",
-    "ADIF_07_Fecha_Ejecucion",
-    "ADIF_07_Verificado"
+attributes = ["Param_1",
+    "Param_2",
+    "Param_3",
+    "Param_4",,
+    "ADIF_04_Fase"
 ]
 
 def count_elements(ifc_file):
